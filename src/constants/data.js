@@ -14,7 +14,7 @@ import gemini from '../assets/gemini.png';
 export const PROJECTS = [
   {
     id: 1,
-    title: "Subharti University App",
+    title: "AI Powered Subharti University App",
     category: "Mobile App",
     tags: ["React Native", "Java", "Spring Boot", "MySQL"],
     description: "A comprehensive mobile application for Subharti University students featuring fee details, AI assistance, leave management, and dashboard customization.",
