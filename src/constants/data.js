@@ -2,6 +2,7 @@ import cloudComputingPdf from '../assets/Cloud Computing.pdf';
 import discreteMathPdf from '../assets/Discrete Mathematics.pdf';
 import dsaPdf from '../assets/DSA.pdf';
 import javaPdf from '../assets/Programming in Java.pdf';
+import CodingShuttle from "../assets/CodingShuttle.png";
 
 import subharti1 from '../assets/subharti/1.png';
 import subharti2 from '../assets/subharti/2.png';
@@ -9,8 +10,6 @@ import subharti3 from '../assets/subharti/3.png';
 import subharti4 from '../assets/subharti/4.png';
 import spotify from '../assets/spotify.png';
 import gemini from '../assets/gemini.png';
-
-
 
 export const PROJECTS = [
   {
@@ -39,19 +38,14 @@ export const PROJECTS = [
     tags: ["React.js", "Gemini API", "Bootstrap"],
     description:
       "A Gemini-inspired AI chatbot interface built using React.js, capable of generating real-time responses using the Gemini API.",
-
     problem:
       "Understanding how modern AI chat applications work and implementing a responsive, interactive UI for real-time conversations.",
-
     solution:
-      "Developed a chatbot interface that integrates with the Gemini API to fetch and display AI-generated responses dynamically. Focused on clean UI, smooth user experience, and responsive design.",
-
+      "Developed a chatbot interface that integrates with the Gemini API to fetch and display AI-generated responses dynamically.",
     challenges:
-      "Handling API responses efficiently, managing loading states, and ensuring smooth UI updates during real-time interactions.",
-
+      "Handling API responses efficiently and managing loading states.",
     result:
-      "Successfully built a functional AI chatbot clone that demonstrates API integration, component-based architecture, and modern frontend development skills.",
-
+      "Successfully built a functional AI chatbot clone.",
     color: "#c4b5fd",
     accent: "#7c3aed",
     images: [gemini],
@@ -63,22 +57,16 @@ export const PROJECTS = [
     title: "Hospital Management System (Backend)",
     category: "Backend",
     tags: ["Java", "Spring Boot", "MySQL", "REST API"],
-
     description:
-      "A backend system built with Spring Boot to manage hospital operations like doctor availability, appointments, and user.",
-
+      "A backend system built with Spring Boot to manage hospital operations.",
     problem:
-      "Managing hospital data such as doctor schedules and patient appointments manually can be inefficient and error-prone.",
-
+      "Managing hospital data manually is inefficient.",
     solution:
-      "Developed RESTful APIs using Spring Boot to handle doctor availability, appointment booking, and user data, ensuring structured and efficient data management.",
-
+      "Developed REST APIs for doctor availability and appointments.",
     challenges:
-      "Designing proper API structure, handling database relationships, and managing CRUD operations efficiently using Spring Boot and MySQL.",
-
+      "Handling database relationships and CRUD operations.",
     color: "#fde68a",
     accent: "#d97706",
-    emoji: "◈",
     live: "#",
     github: "https://github.com/Agaj-Alam/spring-boot",
   },
@@ -87,18 +75,14 @@ export const PROJECTS = [
     title: "Spotify Clone",
     category: "Frontend",
     tags: ["React.js", "JavaScript", "CSS", "HTML"],
-
     description:
-      "A Spotify-inspired music player web app built using React.js with a clean UI and basic playback controls.",
-
+      "A Spotify-inspired music player web app.",
     problem:
-      "Understanding how modern music streaming apps manage UI, state, and audio playback while maintaining a smooth user experience.",
-
+      "Understanding UI + audio playback.",
     solution:
-      "Developed a responsive music player interface with features like play/pause, track switching, and dynamic UI updates using React state management.",
-
+      "Built responsive UI with playback controls.",
     challenges:
-      "Handling audio playback control, synchronizing UI with current track state, and managing component re-renders efficiently.",
+      "Syncing UI with audio state.",
     color: "#86efac",
     accent: "#22c55e",
     images: [spotify],
@@ -132,6 +116,14 @@ export const SKILLS = {
 
 export const ACHIEVEMENTS = [
   {
+    year: "2025",
+    title: "Spring Boot 0 To 100 Cohort 3.0",
+    org: "Coding Shuttle",
+    type: "Certification",
+    note: "Completed",
+    pdf: CodingShuttle
+  },
+  {
     year: "2023",
     title: "Data Structures and Algorithms",
     org: "NPTEL",
@@ -147,7 +139,6 @@ export const ACHIEVEMENTS = [
     note: "Certification",
     pdf: discreteMathPdf
   },
-
   {
     year: "2024",
     title: "Programming in Java",
@@ -155,7 +146,8 @@ export const ACHIEVEMENTS = [
     type: "nptel",
     note: "Certification",
     pdf: javaPdf
-  }, {
+  },
+  {
     year: "2025",
     title: "Cloud Computing",
     org: "NPTEL",
