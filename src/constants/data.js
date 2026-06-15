@@ -29,7 +29,7 @@ export const PROJECTS = [
     accent: "#059669",
     images: [subharti1, subharti2, subharti3, subharti4],
     live: "#",
-    github: "https://github.com/Agaj-Alam/subharti-app",
+    github: "https://github.com/Agaj-Alam/Ai-Powered-Collage-App",
   },
   {
     id: 2,
@@ -68,7 +68,7 @@ export const PROJECTS = [
     color: "#fde68a",
     accent: "#d97706",
     live: "#",
-    github: "https://github.com/Agaj-Alam/spring-boot",
+    github: "https://github.com/Agaj-Alam/Hospital-Management-System",
   },
   {
     id: 4,
